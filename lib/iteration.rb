@@ -9,7 +9,9 @@ def join_ingredients(src)
   
   row_ind = 0 
   while row_ind < src.count do 
-    statement = "I love #{}"
+    puts "I love #{src[row_ind][0]} and #{src[row_ind][1]} on my pizza"
+    row_ind += 1 
+  end
   
 end
 
